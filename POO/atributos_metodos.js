@@ -22,6 +22,6 @@ const alumno = {
     console.log(`Mi padre es ${this.padre.nombre}`)
   },
 }
-  
+    
 alumno.presentarse()
 alumno.whoIsYourFather()
