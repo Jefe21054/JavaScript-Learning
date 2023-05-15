@@ -16,6 +16,6 @@ test('Verificar que la palabra Hola este dentro de mi variable holaMundo', () =>
   expect(holaMundo).toMatch(/Hola/)
 })
 
-test('Verificar que la palabra todos no este dentro de mi variable holaMundo', () => {
-  expect(holaMundo).not.toMatch(/todos/)
+test('Verificar que la palabra todo no este dentro de mi variable holaMundo', () => {
+  expect(holaMundo).not.toMatch(/todo/)
 })
