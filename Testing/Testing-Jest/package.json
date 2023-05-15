@@ -1,0 +1,22 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "Este es un proyecto para ver como funciona Jest JS",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "Jest",
+    "Node",
+    "JavaScript"
+  ],
+  "author": "ivaniglesias500@protonmail.ch",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
